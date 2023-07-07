@@ -13,10 +13,4 @@ Primeira
 
 
 ssh-keygen -t rsa -b 4096 ./chavessh
-chmod 400 chavessh
-
-```bash
-  npm install my-project
-  cd my-project
-```
-    
+chmod 400 chavessh    
