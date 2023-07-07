@@ -1,0 +1,31 @@
+---
+- name: 'Instala pacotes de dependencia do sistema operacional'
+  apt:
+    update_cache: yes
+    cache_valid_time: 3600
+    name: "{{ item }}"
+    state: latest
+  become: yes
+  with_items:
+        - php
+        - apache2
+        - libapache2-mod-php
+        - php-ssh2
+        - php-pear
+        - php-dev
+        - libmcrypt-dev
+        - php-mbstring
+        - php-xmlrpc
+        - php-soap
+        - php-gd
+        - php-xml
+        - php-cli
+        - php-zip
+        - php-bcmath
+        - php-tokenizer
+        - php-common
+        - php-mysql
+        - php-curl
+        - php-xml
+        - php-sqlite3
+        - php-mysql
