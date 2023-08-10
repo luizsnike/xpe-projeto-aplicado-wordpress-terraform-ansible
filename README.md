@@ -9,8 +9,5 @@ Este é um projeto que foi feito para o Projeto Aplicado da XP Educação.
 
 ## Instalação
 
-Primeira
-
-
 ssh-keygen -t rsa -b 4096 ./chavessh
 chmod 400 chavessh    
